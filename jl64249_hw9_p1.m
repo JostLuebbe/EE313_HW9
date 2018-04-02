@@ -1,5 +1,5 @@
 %% 
-% Question 1
+% Problem 1
 tic
 clf;
 t = linspace(-3*pi,3*pi,6001);
@@ -16,9 +16,3 @@ h = plot(t,y);
 set(h,'LineWidth',1.5);
 ylim([-.2 1.2])
 toc
-%% 
-% Question 2
-x = sin(1:20);
-h = [0 0 1 2 3 0 0];
-y = conv(x,h);
-bar(y)
